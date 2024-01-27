@@ -1,0 +1,41 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+
+$Linear-gradient-active: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+$error-input:  hsl(0, 100%, 66%);
+$White: hsl(0, 0%, 100%);
+$Light-grayish-violet: hsl(270, 3%, 87%);
+$Dark-grayish-violet: hsl(279, 6%, 55%);
+$Very-dark-violet: hsl(278, 68%, 11%);
+
+
+
